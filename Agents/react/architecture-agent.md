@@ -1,5 +1,20 @@
 # Architecture
 
+## CLI-First Execution
+
+Project setup and dependency operations must be CLI-driven.
+
+Use:
+
+* `npm create vite@latest <app-name> -- --template react-ts`
+* `npm install`
+* `npm run dev`
+* `npm run build`
+* `npm run test`
+* `npx tailwindcss init -p`
+
+Prefer command-based scaffolding and scripts over manual bootstrap steps.
+
 ## Core Principles
 
 The codebase must prioritize:

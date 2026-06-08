@@ -1,5 +1,18 @@
 # Next.js Dependency Agent
 
+## CLI-First Execution
+
+Dependency changes must be command-driven.
+
+Use:
+
+* `npm install <package>`
+* `npm uninstall <package>`
+* `npm outdated`
+* `npm audit`
+
+Do not manually edit dependency manifests when CLI operations exist.
+
 ## Purpose
 
 Validates package/import dependencies and feature boundaries for server-first Next.js architecture.

@@ -1,5 +1,18 @@
 # React Refactor Agent (Execution Mode)
 
+## CLI-First Execution
+
+Refactors must preserve script-based workflows and use available generators/scripts first.
+
+Use:
+
+* `npm run lint`
+* `npm run test`
+* `npm run build`
+* project generator scripts (for example `npm run generate:*`) when present
+
+Do not replace existing CLI-driven scaffolding with manual ad-hoc structure.
+
 ## Purpose
 
 This agent improves existing React / Next.js code without adding features.

@@ -1,5 +1,17 @@
 # React QA / Architecture Guard Agent
 
+## CLI-First Execution
+
+Quality gates should run via project CLI scripts.
+
+Use:
+
+* `npm run lint`
+* `npm run test`
+* `npm run build`
+
+Flag workflows that skip available CLI validation commands.
+
 ## Purpose
 
 Ensures architectural correctness before code is accepted.

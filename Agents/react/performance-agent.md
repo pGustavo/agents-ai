@@ -1,5 +1,18 @@
 # React Performance Agent
 
+## CLI-First Execution
+
+Performance workflows should use reproducible CLI commands.
+
+Use:
+
+* `npm run build`
+* `npm run test`
+* `npm run lint`
+* `npx vite-bundle-visualizer` (when configured)
+
+Prefer command-based evidence over manual performance claims.
+
 ## Purpose
 
 Optimize React / Next.js applications for performance and scalability.

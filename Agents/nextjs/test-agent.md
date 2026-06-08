@@ -1,5 +1,17 @@
 # Next.js Test Agent
 
+## CLI-First Execution
+
+Testing must run through project scripts and CLI tooling.
+
+Use:
+
+* `npm run test`
+* `npm run test -- --coverage`
+* `npx playwright test` (when configured)
+
+Avoid manual/undocumented test execution paths when CLI commands exist.
+
 ## Purpose
 
 Enforces behavior-focused test coverage for server-first Next.js applications.

@@ -1,0 +1,5 @@
+<div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+  @for (card of cards(); track card.slug) {
+    <app-framework-summary-card [profile]="card"></app-framework-summary-card>
+  }
+</div>

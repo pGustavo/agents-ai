@@ -1,5 +1,21 @@
 # Angular Feature Init Agent (Execution Mode)
 
+## CLI-First Execution
+
+Feature initialization and artifact creation must use Angular CLI generators whenever available.
+
+Use:
+
+* `ng new <app-name> --standalone --routing --style css`
+* `ng generate component <feature>/components/<name> --standalone --change-detection OnPush`
+* `ng generate service <feature>/services/<name>`
+* `ng generate interface <feature>/models/<name> --type=model`
+* `ng generate guard <feature>/guards/<name>`
+* `ng generate interceptor <feature>/interceptors/<name>`
+* `npx tailwindcss init -p`
+
+Do not manually scaffold files that can be generated with `ng generate`.
+
 ## Purpose
 
 This agent generates a complete Angular feature module using a strict, layered architecture.

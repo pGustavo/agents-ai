@@ -1,5 +1,17 @@
 # Angular UI System Agent
 
+## CLI-First Execution
+
+UI primitives should be created with Angular generators before customization.
+
+Use:
+
+* `ng generate component shared/ui/<name> --standalone --change-detection OnPush`
+* `ng generate directive shared/directives/<name>`
+* `ng generate pipe shared/pipes/<name>`
+
+Do not handcraft reusable UI scaffolding when CLI generation is available.
+
 ## Purpose
 
 This agent manages the shared UI component system.

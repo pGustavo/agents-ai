@@ -1,5 +1,17 @@
 # Angular Test Agent
 
+## CLI-First Execution
+
+Testing workflows must run through Angular CLI commands.
+
+Use:
+
+* `ng test`
+* `ng test --watch=false --code-coverage`
+* `ng e2e` (if configured)
+
+Do not rely on undocumented/manual test runners when CLI scripts exist.
+
 ## Purpose
 
 Generate and maintain full test coverage for Angular applications.

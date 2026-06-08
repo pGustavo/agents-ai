@@ -1,5 +1,18 @@
 # Next.js Refactor Agent
 
+## CLI-First Execution
+
+Refactor workflows must preserve and rely on CLI-managed scripts and generators.
+
+Use:
+
+* `npm run lint`
+* `npm run test` (when configured)
+* `npm run build`
+* approved generator commands when available
+
+Do not replace CLI-driven scaffolding with manual ad-hoc structure.
+
 ## Purpose
 
 Performs structural and maintainability improvements without adding features or changing behavior.

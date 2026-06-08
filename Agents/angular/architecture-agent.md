@@ -1,5 +1,21 @@
 # Architecture
 
+## CLI-First Execution
+
+All architecture setup and scaffolding must use Angular CLI commands instead of manual bootstrapping when possible.
+
+Use:
+
+* `ng new <app-name> --standalone --routing --style css`
+* `ng generate component <path>/<name> --standalone --change-detection OnPush`
+* `ng generate service <path>/<name>`
+* `ng generate interface <path>/<name> --type=model`
+* `ng generate guard <path>/<name>`
+* `ng generate interceptor <path>/<name>`
+* `npx tailwindcss init -p`
+
+Do not manually create initial app or artifact scaffolding when `ng` can generate it.
+
 ## Core Principles
 
 The codebase must prioritize:

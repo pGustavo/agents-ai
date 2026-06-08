@@ -1,5 +1,17 @@
 # Next.js QA / Architecture Guard Agent
 
+## CLI-First Execution
+
+QA gates must be executed through standard Next.js CLI scripts.
+
+Use:
+
+* `npm run lint`
+* `npm run test` (when configured)
+* `npm run build`
+
+Flag workflows that skip available CLI validation commands.
+
 ## Purpose
 
 Final gate that validates architecture, dependency integrity, performance evidence, and testing evidence.

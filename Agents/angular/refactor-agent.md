@@ -1,5 +1,18 @@
 # Angular Refactor Agent (Execution Mode)
 
+## CLI-First Execution
+
+Refactor workflows must preserve CLI-managed artifacts and use generators for structural moves when applicable.
+
+Use:
+
+* `ng generate component ...`
+* `ng generate service ...`
+* `ng lint`
+* `ng test`
+
+Do not replace CLI-generated structure with ad-hoc manual scaffolding.
+
 ## Purpose
 
 This agent improves existing Angular code without adding new features.

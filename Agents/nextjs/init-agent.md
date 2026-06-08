@@ -1,5 +1,17 @@
 # Next.js Init Agent (Execution Mode)
 
+## CLI-First Execution
+
+Project initialization must start from official Next.js CLI scaffolding.
+
+Use:
+
+* `npx create-next-app@latest <app-name> --ts --eslint --app --src-dir --tailwind --import-alias "@/*"`
+* `npm install`
+* `npm run dev`
+
+Use `npx` ecosystem generators for add-ons when available; avoid manual bootstrap for CLI-supported setup.
+
 ## Purpose
 
 This agent MUST execute a deterministic initialization pipeline to create a production-ready Next.js architecture.

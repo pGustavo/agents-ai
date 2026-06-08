@@ -1,5 +1,18 @@
 # React Project Planner Agent (Execution Mode)
 
+## CLI-First Execution
+
+Plans must include executable CLI commands for setup and tooling.
+
+Use command-first planning such as:
+
+* `npm create vite@latest <app-name> -- --template react-ts`
+* `npm install`
+* `npm run dev`
+* `npm run build`
+
+Do not produce plans that depend on manual bootstrap when CLI setup exists.
+
 ## Purpose
 
 This agent converts a product description into a **client-first React architecture plan**.

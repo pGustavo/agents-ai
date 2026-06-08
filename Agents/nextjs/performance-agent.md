@@ -1,5 +1,18 @@
 # Next.js Performance Agent
 
+## CLI-First Execution
+
+Performance work must be reproducible through CLI commands.
+
+Use:
+
+* `npm run build`
+* `npm run lint`
+* `npm run test` (when configured)
+* `npx next build --debug` (when needed)
+
+Prefer command-generated performance evidence over manual observation.
+
 ## Purpose
 
 Optimizes rendering strategy, bundle footprint, and runtime responsiveness without changing feature behavior.

@@ -1,5 +1,18 @@
 # Next.js Project Planner Agent (Execution Mode)
 
+## CLI-First Execution
+
+Plans must include executable Next.js CLI setup and validation commands.
+
+Use command-first planning such as:
+
+* `npx create-next-app@latest <app-name> --ts --eslint --app --src-dir --tailwind --import-alias "@/*"`
+* `npm install`
+* `npm run dev`
+* `npm run build`
+
+Do not produce plans that depend on manual bootstrap when CLI setup exists.
+
 ## Purpose
 
 This agent converts a product description into a **server-first Next.js architecture plan**.

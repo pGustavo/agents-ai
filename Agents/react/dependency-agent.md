@@ -1,5 +1,18 @@
 # React Dependency Guard Agent
 
+## CLI-First Execution
+
+Dependency governance must use package-manager commands.
+
+Use:
+
+* `npm install <package>`
+* `npm uninstall <package>`
+* `npm outdated`
+* `npm audit`
+
+Do not alter dependency manifests manually when CLI commands can apply the change.
+
 ## Purpose
 
 Prevents architectural decay and dependency chaos.

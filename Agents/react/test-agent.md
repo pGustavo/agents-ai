@@ -1,5 +1,17 @@
 # React Test Agent
 
+## CLI-First Execution
+
+Testing must run through CLI scripts and command-line tooling.
+
+Use:
+
+* `npm run test`
+* `npm run test -- --coverage`
+* `npx playwright test` (when configured)
+
+Avoid undocumented/manual test execution paths when CLI commands exist.
+
 ## Purpose
 
 Ensure full test coverage for React / Next.js applications.

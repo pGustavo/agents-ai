@@ -1,0 +1,59 @@
+<section class="space-y-6">
+  <header class="rounded-lg border border-slate-800 bg-slate-900 p-6">
+    <h1 class="text-3xl font-bold text-white">{{ framework().name }}</h1>
+    <p class="mt-3 text-slate-300">{{ framework().summary }}</p>
+    <p class="mt-4 text-sm text-slate-400">
+      <span class="font-semibold text-slate-200">Architecture model:</span>
+      {{ framework().architectureModel }}
+    </p>
+  </header>
+
+  <section class="grid gap-6 lg:grid-cols-2">
+    <article class="rounded-lg border border-slate-800 bg-slate-900 p-5">
+      <h2 class="text-lg font-semibold text-cyan-300">Ideal use cases</h2>
+      <ul class="mt-3 space-y-2 text-sm text-slate-300">
+        @for (useCase of framework().idealUseCases; track useCase) {
+          <li>• {{ useCase }}</li>
+        }
+      </ul>
+    </article>
+
+    <article class="rounded-lg border border-slate-800 bg-slate-900 p-5">
+      <h2 class="text-lg font-semibold text-cyan-300">Core capabilities</h2>
+      <ul class="mt-3 space-y-3 text-sm text-slate-300">
+        @for (capability of framework().capabilities; track capability.title) {
+          <li>
+            <p class="font-medium text-slate-100">{{ capability.title }}</p>
+            <p>{{ capability.description }}</p>
+          </li>
+        }
+      </ul>
+    </article>
+  </section>
+
+  <section class="grid gap-6 lg:grid-cols-2">
+    <article class="rounded-lg border border-slate-800 bg-slate-900 p-5">
+      <h2 class="text-lg font-semibold text-cyan-300">Agent roles</h2>
+      <ul class="mt-3 space-y-3 text-sm text-slate-300">
+        @for (role of framework().agentRoles; track role.id) {
+          <li>
+            <p class="font-medium text-slate-100">{{ role.name }}</p>
+            <p>{{ role.responsibility }}</p>
+          </li>
+        }
+      </ul>
+    </article>
+
+    <article class="rounded-lg border border-slate-800 bg-slate-900 p-5">
+      <h2 class="text-lg font-semibold text-cyan-300">Execution workflow</h2>
+      <ol class="mt-3 space-y-3 text-sm text-slate-300">
+        @for (step of framework().workflow; track step.order) {
+          <li>
+            <p class="font-medium text-slate-100">{{ step.order }}. {{ step.title }}</p>
+            <p>{{ step.outcome }}</p>
+          </li>
+        }
+      </ol>
+    </article>
+  </section>
+</section>

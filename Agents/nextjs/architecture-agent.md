@@ -1,5 +1,18 @@
 # Next.js Architecture
 
+## CLI-First Execution
+
+Architecture bootstrap and configuration must use Next.js CLI commands first.
+
+Use:
+
+* `npx create-next-app@latest <app-name> --ts --eslint --app --src-dir --tailwind --import-alias "@/*"`
+* `npm run dev`
+* `npm run build`
+* `npm run lint`
+
+Prefer CLI-managed project setup over manual initialization.
+
 ## Core Principles
 
 The codebase must prioritize:

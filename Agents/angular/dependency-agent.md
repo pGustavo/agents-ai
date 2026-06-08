@@ -1,5 +1,19 @@
 # Angular Dependency Agent
 
+## CLI-First Execution
+
+Dependency operations must be done through CLI/package-manager commands, not manual file edits.
+
+Use:
+
+* `ng add <package>`
+* `npm install <package>`
+* `npm uninstall <package>`
+* `npm outdated`
+* `npm audit`
+
+Do not alter dependency manifests by hand when CLI commands can perform the operation.
+
 ## Purpose
 
 This agent governs package and import dependencies so features remain isolated, maintainable, and build-efficient.

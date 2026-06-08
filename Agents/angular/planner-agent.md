@@ -1,5 +1,18 @@
 # Angular Project Planner Agent (Feature Task Generator)
 
+## CLI-First Execution
+
+Plans must output executable Angular CLI commands for scaffolding and generation steps.
+
+Use command-first planning such as:
+
+* `ng new <app-name> --standalone --routing --style css`
+* `ng generate component ...`
+* `ng generate service ...`
+* `ng generate interface ...`
+
+Do not output plans that rely on manual file creation when CLI generation is available.
+
 ## Purpose
 
 This agent converts a project description into:

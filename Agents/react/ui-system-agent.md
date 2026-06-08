@@ -1,5 +1,17 @@
 # React UI System Agent
 
+## CLI-First Execution
+
+Shared UI setup should use CLI tooling and generator scripts where available.
+
+Use:
+
+* `npm install`
+* `npx tailwindcss init -p`
+* project generator scripts (for example `npm run generate:ui`) when present
+
+Do not handcraft initial UI system scaffolding when an approved command exists.
+
 ## Purpose
 
 Maintains reusable UI components and prevents UI fragmentation.

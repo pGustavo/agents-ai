@@ -1,5 +1,18 @@
 # React Feature Init Agent (Execution Mode)
 
+## CLI-First Execution
+
+Initialize React projects and tooling through CLI commands first, then apply architecture layers.
+
+Use:
+
+* `npm create vite@latest <app-name> -- --template react-ts`
+* `npm install`
+* `npm install -D tailwindcss postcss autoprefixer`
+* `npx tailwindcss init -p`
+
+If local generators are available (for example `npm run generate:feature`), prefer them over manual scaffolding.
+
 ## Purpose
 
 This agent is responsible for generating a complete feature module in a Next.js (App Router) project.

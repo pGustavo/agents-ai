@@ -1,5 +1,17 @@
 # Angular QA / Architecture Guard Agent
 
+## CLI-First Execution
+
+Validation should be driven by Angular CLI and package-manager commands.
+
+Use:
+
+* `ng lint`
+* `ng test`
+* `ng build --configuration production`
+
+Flag workflows that bypass CLI checks when equivalent commands exist.
+
 ## Purpose
 
 This agent validates that Angular architecture rules are respected before code is considered complete.

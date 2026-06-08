@@ -1,5 +1,18 @@
 # Angular Performance Agent
 
+## CLI-First Execution
+
+Performance analysis and optimization verification should be command-driven.
+
+Use:
+
+* `ng build --configuration production`
+* `ng test`
+* `ng lint`
+* `npx source-map-explorer <build-output>` (when installed)
+
+Prefer CLI diagnostics over ad-hoc/manual inspection.
+
 ## Purpose
 
 This agent optimizes Angular runtime behavior, rendering efficiency, and bundle cost without changing business behavior.

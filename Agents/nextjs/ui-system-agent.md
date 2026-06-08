@@ -1,5 +1,17 @@
 # Next.js UI System Agent
 
+## CLI-First Execution
+
+UI system setup should use CLI-managed initialization and approved generators.
+
+Use:
+
+* `npx create-next-app@latest <app-name> --ts --eslint --app --src-dir --tailwind --import-alias "@/*"`
+* `npm install`
+* approved UI generator commands when available
+
+Do not manually bootstrap shared UI foundations when CLI setup exists.
+
 ## Purpose
 
 Owns reusable shared UI primitives and prevents feature-level UI duplication.

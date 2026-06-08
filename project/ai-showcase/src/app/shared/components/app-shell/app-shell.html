@@ -1,0 +1,38 @@
+<div class="min-h-screen bg-slate-950 text-slate-100">
+  <header class="border-b border-slate-800 bg-slate-900/80">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <a routerLink="/" class="text-lg font-semibold text-cyan-300">AI Showcase</a>
+      <nav class="flex gap-2 text-sm">
+        <a
+          routerLink="/"
+          routerLinkActive="bg-cyan-500/20 text-cyan-200"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="rounded px-3 py-2 text-slate-300 hover:bg-slate-800"
+          >Home</a
+        >
+        <a
+          routerLink="/angular"
+          routerLinkActive="bg-cyan-500/20 text-cyan-200"
+          class="rounded px-3 py-2 text-slate-300 hover:bg-slate-800"
+          >Angular</a
+        >
+        <a
+          routerLink="/react"
+          routerLinkActive="bg-cyan-500/20 text-cyan-200"
+          class="rounded px-3 py-2 text-slate-300 hover:bg-slate-800"
+          >React</a
+        >
+        <a
+          routerLink="/nextjs"
+          routerLinkActive="bg-cyan-500/20 text-cyan-200"
+          class="rounded px-3 py-2 text-slate-300 hover:bg-slate-800"
+          >Next.js</a
+        >
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-6 py-8">
+    <router-outlet></router-outlet>
+  </main>
+</div>
