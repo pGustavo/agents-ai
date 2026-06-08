@@ -10,6 +10,7 @@ It MUST:
 * generate all required layers (UI, hooks, services, types, tests)
 * enforce separation of concerns
 * ensure testability and reusability
+* use Tailwind CSS as the styling default
 
 It MUST NOT:
 
@@ -247,6 +248,7 @@ __tests__/
 * Components must be reusable
 * No business logic in UI
 * Hooks handle orchestration
+* Tailwind CSS is the default styling approach
 
 ---
 

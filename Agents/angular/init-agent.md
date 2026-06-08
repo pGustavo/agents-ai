@@ -12,6 +12,7 @@ It MUST:
 * ensure service-based API access
 * generate full test coverage
 * keep components reusable and clean
+* use Tailwind CSS for feature styling
 
 It MUST NOT:
 
@@ -330,6 +331,13 @@ Priority order:
 * no business logic
 * no direct HTTP
 * must use facade/state layer
+
+---
+
+## Styling
+
+* Tailwind CSS required for feature styling
+* avoid inline styles and large global stylesheets
 
 ---
 

@@ -39,6 +39,7 @@ This README defines how to create an Angular project using all agents in `Agents
    Enforce Angular standards:
    - standalone-only components
    - feature-based structure
+   - Tailwind CSS as default styling system
    - signals-first state
    - OnPush strategy
    - lazy loading and strict typing

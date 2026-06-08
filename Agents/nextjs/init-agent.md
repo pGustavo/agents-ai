@@ -179,6 +179,7 @@ Generate:
 * Prettier
 * TypeScript strict config
 * Next.js config optimized for performance
+* Tailwind CSS configuration and base stylesheet wiring
 
 ### Rules:
 

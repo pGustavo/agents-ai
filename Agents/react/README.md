@@ -36,6 +36,7 @@ This README defines how to create a React/Next.js project using all agents in `A
 4. **Lock architecture (`architecture-agent.md`)**  
    Enforce React/Next standards:
    - feature-based structure
+   - Tailwind CSS as default styling system
    - strict typing and modern React patterns
    - proper client/server component boundaries (when using Next.js)
    - service + hook + UI separation

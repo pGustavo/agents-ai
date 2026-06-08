@@ -553,10 +553,9 @@ Examples:
 
 # Styling
 
-Preferred stack:
+Tailwind CSS is required as the default styling system.
 
-1. Tailwind CSS
-2. CSS Modules
+CSS Modules are allowed only for targeted exceptions.
 
 Avoid:
 

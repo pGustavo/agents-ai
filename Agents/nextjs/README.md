@@ -37,6 +37,7 @@ This README defines how to create a Next.js project using all agents in `Agents/
    Enforce:
    - App Router
    - Server Components by default
+   - Tailwind CSS as default styling system
    - strict typing
    - feature-based structure
    - service/mapping boundaries

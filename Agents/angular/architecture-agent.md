@@ -364,6 +364,23 @@ FormGroup<{
 
 ---
 
+# Styling
+
+Use Tailwind CSS as the required styling system.
+
+Allowed exceptions:
+
+* minimal component-scoped styles when utility classes cannot reasonably express the rule
+
+Avoid:
+
+* large global stylesheets
+* inline styles
+
+Design tokens (colors, spacing, typography, radius, shadows) must be centralized and consistent.
+
+---
+
 # Performance
 
 Performance is mandatory.

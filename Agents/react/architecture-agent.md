@@ -530,10 +530,9 @@ Examples:
 
 # Styling
 
-Preferred order:
+Tailwind CSS is required as the default styling system.
 
-1. Tailwind CSS
-2. CSS Modules
+CSS Modules are allowed only for targeted edge cases where utility classes are not sufficient.
 
 Avoid:
 
